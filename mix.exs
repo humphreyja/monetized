@@ -6,7 +6,7 @@ defmodule Monetized.Mixfile do
      name: "Monetized",
      source_url: "https://github.com/theocodes/monetized",
      version: "0.4.1",
-     elixir: "~> 1.1",
+     elixir: "~> 1.3",
      description: description,
      package: package,
      build_embedded: Mix.env == :prod,
@@ -30,7 +30,7 @@ defmodule Monetized.Mixfile do
       {:earmark, "~> 0.2.1",  only: :dev},
       {:inch_ex, "~> 0.5.1",  only: :docs},
       {:decimal, "~> 1.2.0"},
-      {:ecto,    "~> 1.1.7"},
+      {:ecto,    "~> 2.0.5"},
       {:benchfella, "~> 0.3.2", only: :bench},
     ]
   end
